@@ -1,11 +1,59 @@
-h1 {
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    /* used as a position anchor for any children it may have */
+    position: relative;
+}
+
+.banner img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 60%;
+    filter: blur(1.5px);
+}
+
+.banner h1{
     font-size: 50px;
-    font-family: 'Lobster', cursive;
-    color: rgb(116, 164, 204);
-    text-shadow: 2px 2px 2px #000000ac;
+    font-family: "Overpass Mono", monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 0px #411111dd;
+    text-align: center;
+    /* position relative to parent container */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 p, ul {
     font-size: 15px;
-    font-family: 'Lobster', cursive;
+    font-family: "Overpass Mono", monospace;
+    text-align: center;
+    padding-left: 0;
 }
+
+p {
+    padding-top: 15px;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+}
+
+li img {
+    /* img elements are typically inline so we use block to break the line */
+    display: block;
+    box-shadow: 5px 5px 10px 0px #2a0b0b97;
+    filter: grayscale(30%);
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+    
+}
+
