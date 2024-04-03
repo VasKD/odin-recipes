@@ -1,19 +1,72 @@
+hr {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0;
+}
+
 h1 {
-    font-size: 2;
-    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-family: "Monda", sans-serif;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.intro {
+    width: 40%;
+    padding-left: 60px;
+    display: inline-block;
+}
+
+.intro p {
+    display: inline-block;
+    text-align: justify;
 }
 
 img {
+    height: 400px;
+    width: 500px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #888888;
+    margin-top: 20px;
 }
+
+.half {
+    width: 42%;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    /* margin-top: 70px; */
+}
+
 
 h3 {
     font-size: 20px;
-    font-family: 'Lobster', cursive;
+    font-family: "Monda", sans-serif;
+    margin-bottom: 0;
 }
 
 p, ol, ul {
     font-size: 14px; 
-    font-family: 'Lobster', cursive;
+    font-family: "Overpass Mono", monospace;
 }
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 2px #c6c6c6;
+}
+
+.button:hover {
+    background-color: #8e5959;
+    color: white;
+}
+
